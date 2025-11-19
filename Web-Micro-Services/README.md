@@ -260,10 +260,10 @@ The goal is to show:
 
 # ⭐ Final: Wrap-up & Codex Productivity Tips
 
-* How to evolve microservices over time
-* How to ask Codex to improve designs
-* How to use Codex for debugging + refactoring
-* How to handle real-world projects quickly using Codex
+* [How to evolve microservices over time](#)
+* [How to ask Codex to improve designs](#)
+* [How to use Codex for debugging + refactoring](#)
+* [How to handle real-world projects quickly using Codex](#)
 
 ---
 
