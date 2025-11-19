@@ -187,7 +187,7 @@ This outline takes learners step by step—from basics to a real product.
 * Add new services
 * Improve code quality
 
-### **24. Practical Session: Take a running system and ask Codex to**
+### [**24. Practical Session: Take a running system and ask Codex to**](#)
 
 * Add authentication
 * Add new fields in database
