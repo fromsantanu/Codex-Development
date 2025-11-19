@@ -1,9 +1,3 @@
-Here is a **simple, clear, and practical topic outline** you can use to conduct a complete training on **Web & Microservice Development using OpenAI Codex**, designed for participants who already know Python and MySQL at a moderate level.
-
-I will keep everything in **easy language** with relatable examples.
-
----
-
 # ✅ **Training Outline: Web & Microservice Development Using OpenAI Codex**
 
 Think of this training like teaching someone how to build a small city:
@@ -19,23 +13,23 @@ This outline takes learners step by step—from basics to a real product.
 
 # 🔵 **PART 1 — Foundations (Understanding the Tools & Architecture)**
 
-### **1. What is a Web Service?**
+### [**1. What is a Web Service?**](#)
 
 * Simple explanation (like a waiter bringing items between kitchen and customer)
 * REST vs GraphQL (only basics)
 
-### **2. Basics of HTTP**
+### [**2. Basics of HTTP**](#)
 
 * GET, POST, PUT, DELETE in simple language
 * How APIs talk between systems
 
-### **3. Why Microservices?**
+### [**3. Why Microservices?**](#)
 
 * Real-life example: Big restaurant → Many small kitchens
 * Pros & cons
 * When we should avoid microservices
 
-### **4. Introduction to OpenAI Codex**
+### [**4. Introduction to OpenAI Codex**](#)
 
 * What Codex can generate
 * What Codex cannot do
@@ -46,14 +40,14 @@ This outline takes learners step by step—from basics to a real product.
 
 # 🔵 **PART 2 — Backend Essentials Refresher (Very short)**
 
-### **5. Python FastAPI Crash Course**
+### [**5. Python FastAPI Crash Course**](#)
 
 * Creating API routes
 * Request/response models
 * Error handling (simple examples)
 * Dependency injection (basic idea)
 
-### **6. MySQL Refresher**
+### [**6. MySQL Refresher**](#)
 
 * Simple example of creating database and tables
 * Foreign key example
@@ -63,14 +57,14 @@ This outline takes learners step by step—from basics to a real product.
 
 # 🔵 **PART 3 — Using Codex for Productivity**
 
-### **7. How to Ask Codex to Generate Code Correctly**
+### [**7. How to Ask Codex to Generate Code Correctly**](#)
 
 * Writing good prompts
 * Asking Codex to add more features
 * Getting Codex to fix errors
 * Getting Codex to read your existing project structure
 
-### **8. Codex for Backend Development**
+### [**8. Codex for Backend Development**](#)
 
 * Generating CRUD services
 * Generating SQLAlchemy models
@@ -78,7 +72,7 @@ This outline takes learners step by step—from basics to a real product.
 * Generating unit tests
 * Creating folder structure with Codex
 
-### **9. Codex for Microservice Architecture**
+### [**9. Codex for Microservice Architecture**](#)
 
 * Creating separate microservices
 * Communication methods:
@@ -91,27 +85,27 @@ This outline takes learners step by step—from basics to a real product.
 
 # 🔵 **PART 4 — Building Backend Services (Hands-on)**
 
-### **10. Service 1: User Authentication**
+### [**10. Service 1: User Authentication**](#)
 
 * JWT
 * User registration
 * Login
 * Role-based access (simple example)
 
-### **11. Service 2: Product/Item Management**
+### [**11. Service 2: Product/Item Management**](#)
 
 * CRUD
 * Validation
 * Pagination
 * Search API
 
-### **12. Service 3: Billing & Payments (simple simulation)**
+### [**12. Service 3: Billing & Payments (simple simulation)**](#)
 
 * Order creation
 * Order status
 * Email/SMS notification mock
 
-### **13. MySQL Integration with All Services**
+### [**13. MySQL Integration with All Services**](#)
 
 * Using SQLAlchemy ORM
 * Alembic migrations (easy introduction)
@@ -121,26 +115,26 @@ This outline takes learners step by step—from basics to a real product.
 
 # 🔵 **PART 5 — Microservice Architecture (Hands-on)**
 
-### **14. Designing a Microservice Diagram**
+### [**14. Designing a Microservice Diagram**](#)
 
 * Like drawing a map
 * Who talks to whom
 * What data flows where
 
-### **15. Building Independent Microservices**
+### [**15. Building Independent Microservices**](#)
 
 * User service
 * Inventory service
 * Orders service
 * Notification service
 
-### **16. Connecting Microservices**
+### [**16. Connecting Microservices**](#)
 
 * Internal APIs
 * API gateway
 * Shared database vs separate database (simple explanation)
 
-### **17. Implementing Simple Event-Based Communication**
+### [**17. Implementing Simple Event-Based Communication**](#)
 
 * Using Redis Pub/Sub (very easy intro)
 * Or simulate with “jobs” stored in database
@@ -149,26 +143,26 @@ This outline takes learners step by step—from basics to a real product.
 
 # 🔵 **PART 6 — Security & Deployment**
 
-### **18. API Security Made Simple**
+### [**18. API Security Made Simple**](#)
 
 * JWT
 * API key usage
 * OAuth (very basic idea only)
 
-### **19. Building an API Gateway**
+### [**19. Building an API Gateway**](#)
 
 * What is a gateway?
 * Why do we need it?
 * Creating a gateway with FastAPI
 
-### **20. Docker Basics**
+### [**20. Docker Basics**](#)
 
 * Build image
 * Run container
 * Attach volumes
 * Simple real-life explanation: “shipping your application in a box”
 
-### **21. Deploying Microservices**
+### [**21. Deploying Microservices**](#)
 
 * Deploy on VPS
 * Deploy behind Nginx
@@ -178,14 +172,14 @@ This outline takes learners step by step—from basics to a real product.
 
 # 🔵 **PART 7 — Codex-Driven Workflow Automation**
 
-### **22. Using Codex to Refactor Code**
+### [**22. Using Codex to Refactor Code**](#)
 
 * Make code cleaner
 * Add comments
 * Change architecture
 * Improve database schema
 
-### **23. Using Codex to Add Features to Existing Projects**
+### [**23. Using Codex to Add Features to Existing Projects**](#)
 
 * Upload project folder
 * Ask Codex to inspect
@@ -227,12 +221,12 @@ The goal is to show:
 
 # 🔵 **PART 9 — Testing & Documentation**
 
-### **25. Unit Tests Using Pytest**
+### [**25. Unit Tests Using Pytest**](#)
 
 * Simple examples
 * Codex-generated tests
 
-### **26. API Documentation**
+### [**26. API Documentation**](#)
 
 * Using OpenAPI (Swagger UI)
 * Adding simple comments
@@ -242,21 +236,21 @@ The goal is to show:
 
 # 🔵 **PART 10 — Best Practices**
 
-### **27. Clean Folder Structure**
+### [**27. Clean Folder Structure**](#)
 
 * Show good vs bad structure
 
-### **28. Environment Variables**
+### [**28. Environment Variables**](#)
 
 * `.env` file
 * Config class
 
-### **29. Logging & Monitoring**
+### [**29. Logging & Monitoring**](#)
 
 * Simple logging setup
 * Error tracking
 
-### **30. CI/CD Basics (Optional)**
+### [**30. CI/CD Basics (Optional)**](#)
 
 * Github Actions simple example
 * Automatic testing
