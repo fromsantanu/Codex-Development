@@ -1,4 +1,4 @@
-# Codex Assited Development
+# Codex Assisted Development
 
 ## Table of content
 #### 1. Web and Micro Services
