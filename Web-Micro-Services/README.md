@@ -267,15 +267,3 @@ The goal is to show:
 
 ---
 
-# 📌 **If you want, I can now generate:**
-
-✔ A PDF-style detailed syllabus
-✔ Topic-wise slides
-✔ Trainer notes
-✔ Hands-on lab exercises
-✔ A full demo backend system
-✔ A Capstone project outline
-✔ Codex prompts for each topic
-✔ A complete training timetable (2 days / 5 days / 10 days)
-
-Just tell me **which one you want next**.
