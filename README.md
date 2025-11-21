@@ -1,7 +1,7 @@
 # Developing Multi-Tier Systems with OpenAI Codex
 
 ## Table of content
-#### [**1. Using OpenAI Codex to Develop Web and Micro Services using Python:**](https://github.com/fromsantanu/Codex-Development/blob/main/Web-Micro-Services/README.md)
+#### [**1. Using OpenAI Codex to Develop Web Services:**](https://github.com/fromsantanu/Codex-Development/blob/main/Web-Micro-Services/README.md)
 Backend systems are used to host all business and database logic they can be very complex. However given proper instruction to Codex, it can not only develop your programs, it can effactively organise, review and test your codes that you develop. 
 #### [**2. Using OpenAI Codex for Agentic Development:**](https://github.com/fromsantanu/Codex-Development/blob/main/LanChain-Echo-System/README.md) 
 Langchain echo system helps you to build agent driven systems. This tutorial teaches how to instruct OpenAI Codex to work like a very skillful and knowlegeable assistant and work for you to deliver the right kind of results you may be looking for.  
