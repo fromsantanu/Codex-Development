@@ -1,4 +1,4 @@
-# **Building UI in React.js (Beginner-Friendly)**
+# **Building User Iinterface in React.js with Codex Tips**
 
 ---
 
@@ -290,4 +290,5 @@ Practical, confidence-building UI projects.
 * Show processed result in table + chart
 
 ---
+
 
