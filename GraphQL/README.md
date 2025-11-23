@@ -2,28 +2,28 @@
 
 ## 🧩 PART 1 — Understanding the Need
 
-1. **What is GraphQL?**
+1. [**What is GraphQL?**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * Basic idea, buffet example (take only what you need).
    * **How to instruct Codex:**
 
      > “Explain GraphQL to a backend developer who knows REST, using a simple restaurant or buffet example. Keep it very simple and short.”
 
-2. **REST vs GraphQL**
+2. [**REST vs GraphQL**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * Overfetching, underfetching, multiple endpoints vs one flexible endpoint.
    * **How to instruct Codex:**
 
      > “Write a short comparison table REST vs GraphQL with examples of API calls and responses for a ‘customer + orders’ scenario.”
 
-3. **Why companies adopt GraphQL**
+3. [**Why companies adopt GraphQL**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * Mobile, dashboards, multiple frontends.
    * **How to instruct Codex:**
 
      > “List 8 practical situations where GraphQL is better than REST, each in one sentence, with simple real-life analogies.”
 
-4. **Where GraphQL fits in web architecture**
+4. [**Where GraphQL fits in web architecture**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * Browser ↔ GraphQL server ↔ DB/microservices.
    * **How to instruct Codex:**
@@ -34,35 +34,35 @@
 
 ## 🧩 PART 2 — Core GraphQL Building Blocks
 
-5. **Schema — the ‘menu card’**
+5. [**Schema — the ‘menu card’**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * `type Query`, `type Mutation`, etc.
    * **How to instruct Codex:**
 
      > “Generate a simple GraphQL schema for a student-course system with Query and Mutation types. Add comments in plain English.”
 
-6. **Types, Fields & Scalars**
+6. [**Types, Fields & Scalars**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * `String`, `Int`, `Float`, `Boolean`, `ID`.
    * **How to instruct Codex:**
 
      > “Given this JSON example, suggest a GraphQL type definition with proper field types and names.”
 
-7. **Queries — asking for data**
+7. [**Queries — asking for data**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * Basic read operations.
    * **How to instruct Codex:**
 
      > “Generate 3 sample GraphQL queries for the student-course schema: list all students, get one student by id, list courses of a student.”
 
-8. **Mutations — changing data**
+8. [**Mutations — changing data**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * Add, update, delete.
    * **How to instruct Codex:**
 
      > “Create GraphQL mutation definitions for adding, updating, and deleting a student, including simple input types.”
 
-9. **Subscriptions — real-time updates**
+9. [**Subscriptions — real-time updates**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
    * Example: chat, live score.
    * **How to instruct Codex:**
@@ -73,35 +73,35 @@
 
 ## 🧩 PART 3 — Building a Simple GraphQL Backend
 
-10. **Setting up a GraphQL server**
+10. [**Setting up a GraphQL server**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Choose stack: Node (Apollo) or Python (Graphene/Ariadne).
     * **How to instruct Codex:**
 
       > “Generate a minimal GraphQL server setup using [chosen library] with one Query ‘hello’ returning a string. Include install commands.”
 
-11. **Writing a schema file**
+11. [**Writing a schema file**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * SDL (`.graphql` file) or code-first.
     * **How to instruct Codex:**
 
       > “Given this high-level description of entities (Student, Course), generate a schema.graphql file.”
 
-12. **Resolvers — mapping schema to data**
+12. [**Resolvers — mapping schema to data**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Think of them as waiters.
     * **How to instruct Codex:**
 
       > “Generate resolver functions for the student queries using a fake in-memory list so I can test quickly.”
 
-13. **Connecting to a database**
+13. [**Connecting to a database**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Simple CRUD with MySQL / PostgreSQL / MongoDB.
     * **How to instruct Codex:**
 
       > “Convert these fake in-memory resolvers to use SQLAlchemy models for Student and Course with a MySQL database.”
 
-14. **Lists, filters & pagination**
+14. [**Lists, filters & pagination**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Arguments, `limit`, `offset`.
     * **How to instruct Codex:**
@@ -112,35 +112,35 @@
 
 ## 🧩 PART 4 — GraphQL in Microservice Environments
 
-15. **One GraphQL API talking to many services**
+15. [**One GraphQL API talking to many services**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Gateway pattern.
     * **How to instruct Codex:**
 
       > “Generate a GraphQL server that calls two REST services: /customers and /orders, and merges them into a Customer type with orders field.”
 
-16. **GraphQL as a ‘single window counter’**
+16. [**GraphQL as a ‘single window counter’**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Hiding internal complexity.
     * **How to instruct Codex:**
 
       > “Show how to design a GraphQL schema that hides 3 different REST services behind one CustomerDashboard query.”
 
-17. **Schema stitching & federation (simple idea)**
+17. [**Schema stitching & federation (simple idea)**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Combining multiple schemas.
     * **How to instruct Codex:**
 
       > “Explain schema stitching and federation in simple language with text diagrams, for a system with user, billing, and orders services.”
 
-18. **Avoiding tight coupling**
+18. [**Avoiding tight coupling**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Don’t expose internal DB details directly.
     * **How to instruct Codex:**
 
       > “Suggest improvements to this schema to make it less tightly coupled to the database structure. Explain each change.”
 
-19. **When NOT to use GraphQL**
+19. [**When NOT to use GraphQL**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Simple CRUD, heavy file upload, etc.
     * **How to instruct Codex:**
@@ -151,35 +151,35 @@
 
 ## 🧩 PART 5 — Frontend + GraphQL Integration
 
-20. **Calling GraphQL from frontend**
+20. [**Calling GraphQL from frontend**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Plain `fetch`, axios, etc.
     * **How to instruct Codex:**
 
       > “Generate a simple React component that calls a GraphQL endpoint using fetch and displays a list of students.”
 
-21. **Writing queries in UI components**
+21. [**Writing queries in UI components**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Embedding queries as strings or using hooks.
     * **How to instruct Codex:**
 
       > “Refactor this React component to move the GraphQL query into a separate variable and keep the code clean.”
 
-22. **Showing tables, charts, forms**
+22. [**Showing tables, charts, forms**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Use GraphQL data in UI.
     * **How to instruct Codex:**
 
       > “Generate a NiceGUI/React page that calls a GraphQL query and shows the data in a table with basic error handling.”
 
-23. **Handling loading, errors & empty state**
+23. [**Handling loading, errors & empty state**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Spinners, messages.
     * **How to instruct Codex:**
 
       > “Improve this component by adding loading spinner, error message, and ‘no data’ message in simple, readable code.”
 
-24. **Updating UI after mutations**
+24. [**Updating UI after mutations**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Re-fetch or update state.
     * **How to instruct Codex:**
@@ -190,35 +190,35 @@
 
 ## 🧩 PART 6 — Using GraphQL Clients
 
-25. **What is Apollo Client?**
+25. [**What is Apollo Client?**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * High-level explanation.
     * **How to instruct Codex:**
 
       > “Set up Apollo Client in a React app and create one page that shows a list of products using a GraphQL query.”
 
-26. **Managing cache automatically**
+26. [**Managing cache automatically**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Normalization, cache updates.
     * **How to instruct Codex:**
 
       > “Show how to use Apollo cache to update the UI after a createProduct mutation, with a clear code example.”
 
-27. **Centralizing API calls in frontend**
+27. [**Centralizing API calls in frontend**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Reusable hooks / services.
     * **How to instruct Codex:**
 
       > “Refactor these repeated GraphQL calls into reusable React hooks like useStudents() and useCreateStudent().”
 
-28. **Reusing queries across screens**
+28. [**Reusing queries across screens**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Shared query files.
     * **How to instruct Codex:**
 
       > “Organize my GraphQL queries into a separate folder and generate an index file to export them cleanly.”
 
-29. **When simple fetch() is enough**
+29. [**When simple fetch() is enough**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Small projects or demos.
     * **How to instruct Codex:**
@@ -229,35 +229,35 @@
 
 ## 🧩 PART 7 — Designing Good GraphQL APIs
 
-30. **Choosing good field names**
+30. [**Choosing good field names**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Consistency, clarity.
     * **How to instruct Codex:**
 
       > “Review this GraphQL schema and suggest clearer, more consistent field names. Explain why each rename is better.”
 
-31. **Structuring schema for real projects**
+31. [**Structuring schema for real projects**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Grouping types logically.
     * **How to instruct Codex:**
 
       > “Given this list of entities for a clinic app, propose a GraphQL schema structure and file/folder layout.”
 
-32. **Versioning mindset**
+32. [**Versioning mindset**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Evolving schema safely.
     * **How to instruct Codex:**
 
       > “Suggest non-breaking changes to this existing schema to add a new field and a new type, and explain why they are safe.”
 
-33. **Performance considerations**
+33. [**Performance considerations**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Selecting only needed fields, avoiding huge responses.
     * **How to instruct Codex:**
 
       > “Optimize these example queries to only request necessary fields and explain how that helps performance.”
 
-34. **Common beginner mistakes**
+34. [**Common beginner mistakes**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Overloading root Query, leaking DB fields.
     * **How to instruct Codex:**
@@ -268,28 +268,28 @@
 
 ## 🧩 PART 8 — Authentication & Authorization
 
-35. **Login & JWT with GraphQL**
+35. [**Login & JWT with GraphQL**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Simple login mutation.
     * **How to instruct Codex:**
 
       > “Generate a login mutation and resolver that returns a JWT token for a user if email/password match, using [your stack].”
 
-36. **Role-based access**
+36. [**Role-based access**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Doctor vs receptionist vs patient.
     * **How to instruct Codex:**
 
       > “Modify these resolvers to check user role from JWT and block access to admin-only queries.”
 
-37. **Securing mutations**
+37. [**Securing mutations**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Prevent unwanted changes.
     * **How to instruct Codex:**
 
       > “Add server-side validation and sensible error messages to these mutations, and return user-friendly error text.”
 
-38. **Rate limiting & API keys (simple)**
+38. [**Rate limiting & API keys (simple)**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Basic protection.
     * **How to instruct Codex:**
@@ -300,35 +300,35 @@
 
 ## 🧩 PART 9 — Performance, Caching & Scaling
 
-39. **N+1 problem (simple grocery example)**
+39. [**N+1 problem (simple grocery example)**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Too many DB calls.
     * **How to instruct Codex:**
 
       > “Explain the N+1 problem with GraphQL using a grocery example, then show bad vs good resolver code.”
 
-40. **Using DataLoader / batching**
+40. [**Using DataLoader / batching**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Grouped queries.
     * **How to instruct Codex:**
 
       > “Add DataLoader to these resolvers to batch loading of related entities, and comment each step in simple English.”
 
-41. **Query complexity limits**
+41. [**Query complexity limits**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Prevent overly heavy queries.
     * **How to instruct Codex:**
 
       > “Add basic query complexity or depth limiting to this GraphQL server, with clear comments.”
 
-42. **Server caching vs client caching**
+42. [**Server caching vs client caching**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * When and where to cache.
     * **How to instruct Codex:**
 
       > “Show an example of server-side caching for a heavy GraphQL query and explain how it works with a real-life example.”
 
-43. **GraphQL in high-traffic systems**
+43. [**GraphQL in high-traffic systems**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Scaling basics.
     * **How to instruct Codex:**
@@ -339,28 +339,28 @@
 
 ## 🧩 PART 10 — Testing & Monitoring
 
-44. **Unit testing resolvers**
+44. [**Unit testing resolvers**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Simple tests.
     * **How to instruct Codex:**
 
       > “Generate pytest unit tests for these resolver functions, mocking the database layer.”
 
-45. **Mocking DB calls**
+45. [**Mocking DB calls**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Isolated tests.
     * **How to instruct Codex:**
 
       > “Show how to mock the database layer in tests so I can test resolvers without real DB access.”
 
-46. **API documentation with GraphiQL / Playground**
+46. [**API documentation with GraphiQL / Playground**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Self-documenting schema.
     * **How to instruct Codex:**
 
       > “Explain how GraphQL Playground helps discover APIs, and generate a short ‘how to use’ section for my README.”
 
-47. **Logging & tracing**
+47. [**Logging & tracing**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * See which queries are expensive.
     * **How to instruct Codex:**
@@ -371,28 +371,28 @@
 
 ## 🧩 PART 11 — Deployment & Real-Life Setup
 
-48. **Deploying GraphQL server on VPS / cloud**
+48. [**Deploying GraphQL server on VPS / cloud**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Basic steps.
     * **How to instruct Codex:**
 
       > “Generate a step-by-step deployment guide for this GraphQL server on a Linux VPS using Docker and Nginx.”
 
-49. **SSL, domain, environment variables**
+49. [**SSL, domain, environment variables**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * `.env` usage.
     * **How to instruct Codex:**
 
       > “Refactor my config to read secrets and DB URL from environment variables and provide a sample .env file.”
 
-50. **API gateway / Nginx in front**
+50. [**API gateway / Nginx in front**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Routing, security.
     * **How to instruct Codex:**
 
       > “Write an Nginx config example that routes /graphql to my GraphQL server and explains each directive simply.”
 
-51. **CI/CD basics**
+51. [**CI/CD basics**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * Auto test + deploy.
     * **How to instruct Codex:**
@@ -405,31 +405,31 @@
 
 For each project: include **schema design**, **backend**, **frontend**, **microservice integration**, and **Codex prompts**.
 
-52. **Customer Dashboard App (Web + Mobile)**
+52. [**Customer Dashboard App (Web + Mobile)**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * **How to instruct Codex:**
 
       > “Design the GraphQL schema, backend resolvers, and React frontend pages for a customer dashboard that shows profile, orders, and support tickets.”
 
-53. **Small Clinic System — Patients + Visits + Bills**
+53. [**Small Clinic System — Patients + Visits + Bills**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * **How to instruct Codex:**
 
       > “Generate the full GraphQL backend and a basic admin frontend (React or NiceGUI) for a small clinic: patients, visits, bills.”
 
-54. **E-commerce Admin Panel**
+54. [**E-commerce Admin Panel**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * **How to instruct Codex:**
 
       > “Create schema, resolvers, and basic admin UI for products, categories, and orders using GraphQL and React.”
 
-55. **Analytics Dashboard combining 3 microservices**
+55. [**Analytics Dashboard combining 3 microservices**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * **How to instruct Codex:**
 
       > “Design a GraphQL gateway that combines 3 REST microservices (sales, inventory, customers) and generate a dashboard page using it.”
 
-56. **Super-app API (web + mobile + kiosk)**
+56. [**Super-app API (web + mobile + kiosk)**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
     * **How to instruct Codex:**
 
@@ -439,13 +439,14 @@ For each project: include **schema design**, **backend**, **frontend**, **micros
 
 ## 🧩 PART 13 — Choosing Between REST and GraphQL
 
-57. **Simple CRUD apps → REST**
-58. **Data-heavy dashboards → GraphQL**
-59. **One backend & one UI → REST is enough**
-60. **Multiple microservices & UIs → GraphQL shines**
+57. [**Simple CRUD apps → REST**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
+58. [**Data-heavy dashboards → GraphQL**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
+59. [**One backend & one UI → REST is enough**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
+60. [**Multiple microservices & UIs → GraphQL shines**](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/p01.md)
 
 * **How to instruct Codex (for the whole part):**
 
   > “Given this project description, advise whether to use REST, GraphQL, or a mix. Explain the reasoning in very simple language for students.”
 
 ---
+
