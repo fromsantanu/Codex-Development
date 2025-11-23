@@ -3,7 +3,8 @@
 ## Table of content
 #### [**1. Using OpenAI Codex to Develop Web Services:**](https://github.com/fromsantanu/Codex-Development/blob/main/Web-Micro-Services/README.md)
 Backend systems are used to host all business and database logic they can be very complex. However given proper instruction to Codex, it can not only develop your programs, it can effactively organise, review and test your codes that you develop. 
-#### [**2. GraphQL Web and Micro Services - Codex For Development](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/README.md) Learn how GraphQL can act as a single gateway for multiple backend services in a microservice system. You will understand schemas, queries, mutations, and building real apps that connect UI with many microservices. Every chapter includes Codex prompts to auto-generate schema, backend code, and frontend UI.
+#### [**2. GraphQL Web and Micro Services - Codex For Development](https://github.com/fromsantanu/Codex-Development/blob/main/GraphQL/README.md) 
+Learn how GraphQL can act as a single gateway for multiple backend services in a microservice system. You will understand schemas, queries, mutations, and building real apps that connect UI with many microservices. Every chapter includes Codex prompts to auto-generate schema, backend code, and frontend UI.
 #### [**3. Using OpenAI Codex for Agentic Development:**](https://github.com/fromsantanu/Codex-Development/blob/main/LanChain-Echo-System/README.md) 
 Langchain echo system helps you to build agent driven systems. This tutorial teaches how to instruct OpenAI Codex to work like a very skillful and knowlegeable assistant and work for you to deliver the right kind of results you may be looking for.  
 #### [**4. Using OpenAI Codex for building Frontend Systems:**](https://github.com/fromsantanu/Codex-Development/blob/main/Python-Frontends/README.md)
