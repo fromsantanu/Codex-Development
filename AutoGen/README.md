@@ -17,7 +17,7 @@
 
 ---
 
-### [2. Where does Autogen fit?](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [2. Where does Autogen fit?](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p02.md)
 
 * Autogen = framework for creating talking agents
 * Why companies need it
@@ -28,7 +28,7 @@
 
 ---
 
-### [3. Installing Autogen — Step by Step](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [3. Installing Autogen — Step by Step](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p03.md)
 
 * Python, virtual environment, OpenAI key
 * First test script
@@ -38,7 +38,7 @@
 
 ---
 
-### [4. Autogen Architecture — Simple Story](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [4. Autogen Architecture — Simple Story](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p04.md)
 
 * User → Agent A → Agent B → Tools/Database
 * Real-life example: travel agent + hotel agent working together
@@ -48,7 +48,7 @@
 
 ---
 
-### [5. Codex as a Development Partner](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [5. Codex as a Development Partner](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p05.md)
 
 * Ask Codex to write prompts, code, integration steps
 * Saves time for backend developers
@@ -62,7 +62,7 @@
 
 ## ✅ Part 2 — Building First Agentic AI
 
-### [6. Single Assistant Agent](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [6. Single Assistant Agent](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p06.md)
 
 * One AI answering questions
 * Example: School homework helper
@@ -72,7 +72,7 @@
 
 ---
 
-### [7. Two Agents Talking](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [7. Two Agents Talking](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p07.md)
 
 * One agent asks, another answers
 * Example: Customer asks for laptop, AI product expert replies
@@ -82,7 +82,7 @@
 
 ---
 
-### [8. Group Chat Between Agents](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [8. Group Chat Between Agents](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p08.md)
 
 * Multiple roles working together
 * Example: Business team — marketing, finance, HR
@@ -92,7 +92,7 @@
 
 ---
 
-### [9. Human + Agent Collaboration](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [9. Human + Agent Collaboration](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p09.md)
 
 * Human supervises
 * Example: Student asking agents to solve a math problem
@@ -102,7 +102,7 @@
 
 ---
 
-### [10. Safety, Boundaries & Guardrails](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [10. Safety, Boundaries & Guardrails](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p10.md)
 
 * Prevent harmful outputs
 * Allow only allowed tasks
@@ -116,7 +116,7 @@
 
 ## ✅ Part 3 — Let Agents Use Tools
 
-### [11. Calling APIs from Agents](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [11. Calling APIs from Agents](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p11.md)
 
 * Example: Weather-checking agent
 
@@ -125,7 +125,7 @@
 
 ---
 
-### [12. Reading & Writing Files](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [12. Reading & Writing Files](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p12.md)
 
 * Example: AI writing a report into a .txt file
 
@@ -134,7 +134,7 @@
 
 ---
 
-### [13. Using a Database](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [13. Using a Database](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p13.md)
 
 * Example: Restaurant booking database
 
@@ -143,7 +143,7 @@
 
 ---
 
-### [14. Using a Search Engine](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [14. Using a Search Engine](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p14.md)
 
 * Example: AI journalist researching articles
 
@@ -152,7 +152,7 @@
 
 ---
 
-### [15. Adding Custom Tools](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [15. Adding Custom Tools](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p15.md)
 
 * Example: Unit converter, calculator, hospital triage tool
 
@@ -165,7 +165,7 @@
 
 ## ✅ Part 4 — Real-Life Case Studies
 
-### [16. AI Travel Planner](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [16. AI Travel Planner](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p16.md)
 
 * Finds flights, hotels, creates itinerary
 
@@ -174,7 +174,7 @@
 
 ---
 
-### [17. AI Clinic Assistant](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [17. AI Clinic Assistant](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p17.md)
 
 * Intake, symptoms summary, appointment scheduling
 
@@ -183,7 +183,7 @@
 
 ---
 
-### [18. AI Sales Support System](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [18. AI Sales Support System](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p18.md)
 
 * Product recommender, pricing negotiator, email drafter
 
@@ -192,7 +192,7 @@
 
 ---
 
-### [19. AI Data Engineer Assistant](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [19. AI Data Engineer Assistant](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p19.md)
 
 * Reads CSV, cleans data, builds insights
 
@@ -201,7 +201,7 @@
 
 ---
 
-### [20. AI Research Writer](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [20. AI Research Writer](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p20.md)
 
 * Collects sources → summarizes → writes article
 
@@ -214,7 +214,7 @@
 
 ## ✅ Part 5 — Autogen + Backend Development
 
-### [21. Building APIs for Agents](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [21. Building APIs for Agents](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p21.md)
 
 * Create FastAPI endpoints for agents to use tools
 
@@ -223,7 +223,7 @@
 
 ---
 
-### [22. Building Agent UI (NiceGUI / Streamlit)](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [22. Building Agent UI (NiceGUI / Streamlit)](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p22.md)
 
 * Simple dashboard for testing workflows
 
@@ -232,7 +232,7 @@
 
 ---
 
-### [23. Logging, Monitoring & Debugging](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [23. Logging, Monitoring & Debugging](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p23.md)
 
 * Track conversations
 * Save agent attempts
@@ -242,7 +242,7 @@
 
 ---
 
-### [24. Deployment on Cloud](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [24. Deployment on Cloud](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p24.md)
 
 * VPS, Docker, environment variables
 
@@ -255,7 +255,7 @@
 
 ## ✅ Part 6 — Advanced Agent Behavior
 
-### [25. Self-Critic Agent Pattern](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [25. Self-Critic Agent Pattern](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p25.md)
 
 * One agent writes, second reviews
 
@@ -264,7 +264,7 @@
 
 ---
 
-### [26. Planning Agents](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [26. Planning Agents](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p26.md)
 
 * Break big task into smaller tasks
 
@@ -273,7 +273,7 @@
 
 ---
 
-### [27. Memory & Long-Term Context](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [27. Memory & Long-Term Context](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p27.md)
 
 * Save previous chats & reuse
 
@@ -282,7 +282,7 @@
 
 ---
 
-### [28. Multi-Step Goal Completion](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [28. Multi-Step Goal Completion](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p28.md)
 
 * Example: AI preparing for a job interview
 
@@ -291,7 +291,7 @@
 
 ---
 
-### [29. Cost Control & Optimization](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [29. Cost Control & Optimization](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p29.md)
 
 * Token limits
 * Choosing right model
@@ -301,7 +301,7 @@
 
 ---
 
-### [30. When NOT to Use Agentic Systems](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [30. When NOT to Use Agentic Systems](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p30.md)
 
 * Simple tasks
 * Single answer response
@@ -315,21 +315,21 @@
 
 ## ✅ Bonus Section — Teaching Students Codex Prompting
 
-### [31. How to Ask Codex for Code](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [31. How to Ask Codex for Code](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p31.md)
 
 * Clear instructions
 * Inputs + expected outputs
 
-### [32. How to Debug Using Codex](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [32. How to Debug Using Codex](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p32.md)
 
 * Give traceback
 * Ask for explanation + solution
 
-### [33. How to Generate Project Structure](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [33. How to Generate Project Structure](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p33.md)
 
 * Directories, docstrings, tests
 
-### [34. Turning Autogen Workflows into Products](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p01.md)
+### [34. Turning Autogen Workflows into Products](https://github.com/fromsantanu/Codex-Development/blob/main/AutoGen/p34.md)
 
 * Mini-SaaS ideas
 * Job-ready portfolio projects
@@ -368,5 +368,6 @@ Students will confidently:
 ✅ Showcase portfolio projects to employers
 
 ---
+
 
 
